@@ -24,7 +24,6 @@ less_vim() {
     -c 'set scrolloff=999' \
     -c 'runtime! macros/less.vim' \
     -c 'set foldlevel=999' \
-    -c 'set mouse=h' \
     -c 'set nonu' \
     -c 'nmap <ESC>u :nohlsearch<cr>' \
     "$@"
